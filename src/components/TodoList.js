@@ -1,6 +1,6 @@
 "use client";
 
-import { getTodos } from "@/services/getTodos";
+import { getTodos } from "../services/getTodos";
 import { useEffect, useState } from "react";
 
 export function TodoList({ user }) {
